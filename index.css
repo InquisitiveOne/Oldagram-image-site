@@ -52,7 +52,9 @@ h2.user-name, p.user-location {
     margin: 0; 
 }
 
-h2.user-name, p.post-likes  {
+h2.user-name, 
+p.post-likes,
+.post-commenter  {
     color: #000;
     font-size: 13px;
     font-style: normal;

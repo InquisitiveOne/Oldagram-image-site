@@ -55,7 +55,7 @@ posts.forEach(post => {
             </a>
         </div>
         <p class="post-likes">${post.likes} likes</p>
-        <p class="post-comments">${post.comment}</p>
+        <p class="post-comments"><span class="post-commenter">${post.username}</span> ${post.comment}</p>
     `;
     // Append the post element to the container
     postsContainer.appendChild(postElement);
