@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+header {
+    border-bottom: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header, 
+.post-top, 
+.social-icon-row,
+p.post-likes,
+p.post-comments {
+    padding: 10px;
+}
+
+.app-logo {
+    height: 33px;
+}
+
+.user-avatar, .post-user-avatar {
+    border-radius: 50%;
+    height: 34px;
+}
+
+/* Styling for sections created with JS */
+
+/* Top section */
+.post-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: lightblue;
+}
+
+.post-top-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+/* Top section fonts */
+h2.user-name, p.user-location {
+    margin: 0; 
+}
+
+h2.user-name, p.post-likes  {
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p.user-location {
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.user-post-image {
+    width: 100%;
+}
+
+.social-icon-row {
+    display: flex;
+    height: 22px;
+}
+
+.social-button {
+    margin-right: 10px;
+}
+
+.social-icon {
+    height: 22px;
+}
+
+.social-icon:hover,
+.social-icon:active {
+    background: lightcoral;
+}
+
+p.post-likes {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+p.post-comments {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: Regular;
+    line-height: normal;
+}
