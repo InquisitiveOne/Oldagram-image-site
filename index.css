@@ -89,7 +89,7 @@ p.user-location {
 
 .social-icon:hover,
 .social-icon:active {
-    background: lightcoral;
+    opacity: 50%;
 }
 
 p.post-likes {
